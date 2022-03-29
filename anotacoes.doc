@@ -1,0 +1,29 @@
+//LANDING PAGE COM HTML E CSS! - Rafaella Ballerini
+O que é? 
+    Página inicial de um produto que apresenta sua função, e faz um marketing para interessar o usuário a comprar, logar, usar, etc.
+
+Produto utilizado para criação da Landing Page:
+    Balle Bot: bot principal da comunidade Ballerini, desenvolvido pelas pessoas que estão na administração da comunidade;
+
+Editor utilizado:
+    Visual Studio Code;
+
+Imagens:
+    As imagens podem ser baixadas por meio do Frigma, o link para acessa-lo está na descrição do vídeo da Rafaella Ballerini;
+
+Fontes:
+    Na descrição do vídeo da Rafaella Ballerini tem o link para o frigma, no qual as o nome das fontes podem ser conferidos;
+    O link para ser colocado no código pode ser pego por meio do Google Fonts;
+    O @import pode ser usado diretamente no CSS e o <link> no HTML;
+
+reset.css: 
+    O arqueivo reset.css é disponibilizado na internet, foi criado por programadores, para retirar as configurações prévias que o browser realiza;
+    No vídeo, a Rafaella Ballerini faz esse reset por meio do arquivo style.css, mas como já dispunha do arquivo reset.css de outros códigos, o inclui na pasta e no HTML por meio do <link>;
+
+Posicionamento: 
+    No vídeo é disponibilizado um link para o site CSS-TRICKS no qual alguns códigos css são disponibilizados para ajudar os programadores a colocar cada objeto onde desejado;
+
+DESAFIO => 'POR QUE O BORDER-TOP NO CONTEUDO "O QUE ELA FAZ POR VOCÊ?" ESTÁ MENOR DO QUE OS DEMAIS BORDER-TOP SENDO QUE O MODO DE CRIAR FOI O MESMO?':
+    Isso acontece, porque o border-top acima do título Balle Bot e do rodapé (class = .conteudo e .rodape) foi criado dentro da tag pai, ou seja engloba tudo, já o border-top acima do subtítulo 'O que ela faz por você?' (class: .beneficios-titulo) está sendo criado a partir de uma tag filho, ou seja, só será feito acima de onde o conteúdo está, nesse caso, apenas em cima do subtítilo.  
+
+Observações: foram feitas algumas estilizações diferendo quando o mouse é passar por cima de locais que deveriam ter limk, no caso do 'Comunidade Ballerini' realmente existe um link, o qual foi disponibilizado em vídeo, mas nos restantes, como o 'Tutorial', 'Open Source' e o 'Comandos', foi adicionado 'href' no HTML para que eles tenham a caracteristica de uma frase/objeto com link, mas não foi adicionado nenhum link.
